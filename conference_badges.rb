@@ -16,4 +16,5 @@ def assign_rooms(name_arr)
   name_arr.each_with_index do |name, i|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{i + 1}!"
   end
+  return room_assignments
 end
